@@ -1,47 +1,58 @@
 package fase0_fundamentos.semana01;
-import java.util.Scanner;
-public class exercise_day2 {
-    public static void main (String[] args) {
 
+public class teoria_day2 {
+    public static void main (String[] args) {
         //Estudando sobre variáveis - Tipos primitivos:
 
-        int numero_01 = 25; //Números inteiros
-        double numero_02 = 5; //Números decimais
-        boolean choice = true; //Valores booleanos - True e False
-        String nome = "thalita"; //Armazena textos;
-
+        int numero_01 = 25; //Números inteiros;
+        double numero_02 = 5; //Números decimais;
+        boolean choice = true; //Valores booleanos - True e False;
         double soma, subtracao, multiplicacao, divisãoInteira, divisãoResto, potencia, funcQuadratica, raizCubica ;
+        //Declaro valores que possam receber números com casas decimais como double;
 
-        /*
-            Como temos a intenção de realizar operações matemáticas que possam resultar em nhúmeros que possuam casas decimais, vamos
-            declara-los como double.
-        */
 
-        // Realizando operações entre variáveis
-        soma = (numero_01 + numero_02); // Soma de dois números
+        String nome = "thalita"; //Armazena textos, sendo que String, não é um tipo primitivo de variável;
+
+        // Realizando operações entre variáveis;
+
+        // Soma de dois números;
+        soma = (numero_01 + numero_02);
         System.out.println("Resultado da soma de dois números: " + soma);
-        subtracao = (numero_01 - numero_02); // Subtração de dois números
+
+        // Subtração de dois números;
+        subtracao = (numero_01 - numero_02);
         System.out.println("Resultado da subtração de dois números: " + subtracao);
-        multiplicacao = (numero_01 * numero_02); // Multiplicação de dois números
+
+        // Multiplicação de dois números;
+        multiplicacao = (numero_01 * numero_02);
         System.out.println("Resultado da multiplicação de dois números: " + multiplicacao);
-        divisãoInteira = (numero_01 / numero_02); // Realiza uma divisão inteira
+
+        // Realiza uma divisão inteira;
+        divisãoInteira = (numero_01 / numero_02);
         System.out.println("Resultado da divisão inteira de dois números: " + divisãoInteira);
-        divisãoResto = (numero_01 % numero_02); // Realiza uma divisão, mas, o foco aqui é no resto da divisão
+
+        // Realiza uma divisão onde o valor que importa é o resto;
+        divisãoResto = (numero_01 % numero_02);
         System.out.println("Resultado do resto da divisão inteira de dois números: " + divisãoResto);
 
-        // O Java não possuí um operador que realiza operações exponenciais, para isso, usamos a biblioteca Math.
 
-        // Exponencial
-        potencia = Math.pow(numero_01, 2); //Estou elevando o salário ao quadrado -> resultado é do tipo Double
+
+        // O Java não possuí um operador que realiza operações exponenciais, para isso, usamos a biblioteca Math.;
+        // Exponencial;
+        potencia = Math.pow(numero_01, 2); //Estou elevando o valor armazenado na variável, ao quadrado;
+        // Math.pow(base, expoente); -> resultado é do tipo Double;
         System.out.println("Valor elevado ao quadrado: " + potencia);
-        funcQuadratica = Math.sqrt(numero_01); //Estou calculando a raiz quadrada de 25 -> resultado é do tipo Double
+
+        //Raiz Quadrada
+        funcQuadratica = Math.sqrt(numero_01); //Estou calculando a raiz quadrada do valor armazenado na variável;
+        // Math.sqrt(valor_Base); -> resultado é do tipo Double;
         System.out.println("Valor da Raiz Quadrada: " + funcQuadratica);
 
         //Posso usar Math.pow para calcular a raiz de outros quocientes
-        raizCubica = Math.pow(numero_01, 1/3.0); //Estou calculando a raiz cúbica do numero_01 -> resultado é do tipo Doubl
-        System.out.println("Valor da Raiz ao Cubo: " + raizCubica);
+        raizCubica = Math.pow(numero_01, 1/3.0); //Estou calculando a raiz cúbica do numero_01;
+        System.out.println("Valor da Raiz Cúbica: " + raizCubica);
 
-        // Assim como na matemática o Java respeita a Orecedência, no caso, multiplicação se sobresai a soma.
+        // Assim como na matemática o Java respeita a Precedência, no caso, multiplicação se sobresai a soma.
         // Com isso, utilizamos aprentesis para definir a prioridade da operação
 
         //Calculando o delta
