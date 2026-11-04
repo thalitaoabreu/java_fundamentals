@@ -27,4 +27,16 @@ Aqui compartilho exercícios, desafios e pequenos projetos desenvolvidos durante
 
 Consolidar meus conhecimentos em Java e avançar no desenvolvimento de aplicações Back-End utilizando Spring Boot.
 
+## Como executar
+
+1. Clone o repositório:
+
+   git clone https://github.com/thalitaoabreu/java_fundamentals.git
+
+2. Abra o projeto na sua IDE.
+
+3. Navegue até o exercício desejado.
+
+4. Execute a classe que contém o método main.
+
 *Este repositório está em constante evolução, acompanhando meu progresso nos estudos.*
