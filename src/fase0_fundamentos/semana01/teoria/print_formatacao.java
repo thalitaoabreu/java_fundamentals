@@ -1,6 +1,6 @@
-package fase0_fundamentos.semana01;
+package fase0_fundamentos.semana01.teoria;
 
-public class teoria_day1 {
+public class print_formatacao {
     public static void main(String[] args) {
         String nome = "Thalita";
         int idade = 25;

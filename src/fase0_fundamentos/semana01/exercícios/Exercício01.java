@@ -1,8 +1,8 @@
-package fase0_fundamentos.semana01;
+package fase0_fundamentos.semana01.exercícios;
 
 import java.util.Scanner;
 
-public class exercise_day2_3 {
+public class Exercício01 {
     public static void main(String[] args) {
         //Solicitar ao usuário um valor em segundos para convertermos em Horas e Minutos
         int valorNumerico, horas, horasResto, minutos, segundos;

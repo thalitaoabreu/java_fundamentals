@@ -1,5 +1,5 @@
-package fase0_fundamentos.semana01;
-public class exercise_day2_2 {
+package fase0_fundamentos.semana01.exercícios;
+public class Exercício02 {
     public static void main (String[] args) {
         // Calcular a média para três notas
         double notas_1, notas_2, notas_3, media;

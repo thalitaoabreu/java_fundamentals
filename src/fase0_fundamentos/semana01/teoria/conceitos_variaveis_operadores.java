@@ -1,6 +1,6 @@
-package fase0_fundamentos.semana01;
+package fase0_fundamentos.semana01.teoria;
 
-public class teoria_day2 {
+public class conceitos_variaveis_operadores {
     public static void main (String[] args) {
         //Estudando sobre variáveis - Tipos primitivos:
 

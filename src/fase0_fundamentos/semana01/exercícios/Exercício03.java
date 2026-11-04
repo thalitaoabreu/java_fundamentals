@@ -1,6 +1,6 @@
-package fase0_fundamentos.semana01;
+package fase0_fundamentos.semana01.exercícios;
 import java.util.Scanner;
-public class exercise_day2 {
+public class Exercício03 {
     public static void main(String[] args) {
         // Conversor de Temperatura Celsius -> fahrenheit
         // Fórmula -> C / 5 = (F - 32) / 9
